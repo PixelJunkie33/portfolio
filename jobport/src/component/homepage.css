@@ -17,6 +17,10 @@
     margin-top: 10vh;
     margin-left: 25vh;
     z-index: 1;
+    border-radius: 1vh;
+    
+    border-radius: 1vh;
+    
 }
 
 .secondhero{
@@ -36,7 +40,11 @@
  padding: 0 1rem;
  margin-top: -47vh;
  margin-left: 27vh;
+ z-index: 1;
+ border-radius: 1vh;
  z-index: -1;
+ z-index: 1;
+ border-radius: 1vh;
 }
 
 .thirdhero{
@@ -56,14 +64,22 @@
  padding: 0 1rem;
  margin-top: -47vh;
  margin-left: 29vh;
+ z-index: 1;
+  border-radius: 1vh;
  z-index: -2;
+ z-index: 1;
+  border-radius: 1vh;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
   
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
+
+    #navbar{
+      margin-left: 5vh;
+    }
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
@@ -76,6 +92,89 @@
     .navbar-expand-md .navbar-toggler {
       display: none;
     }
+.containerBox{
+  display: none;
+}  
+   .navHead{
+    visibility: hidden;
+   }
+    .overflow-auto{
+      display: none;
+    }
+    .tophero {
+      background-color: antiquewhite;
+      height: 50vh;
+      width: 55vh;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: blue;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0 1rem;
+      margin-top: 10vh;
+      margin-left: 25vh;
+      z-index: 1;
+      border-radius: 1vh;
+      
+  }
+  
+  .secondhero{
+   background-color: aqua;   
+   height: 50vh;
+   width: 55vh;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: blue;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 0 1rem;
+   margin-top: -47vh;
+   margin-left: 27vh;
+   z-index: 1;
+   border-radius: 1vh;
+  }
+  
+  .thirdhero{
+   background-color: aquamarine;   
+   height: 50vh;
+   width: 55vh;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: blue;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 0 1rem;
+   margin-top: -47vh;
+   margin-left: 29vh;
+   z-index: 1;
+    border-radius: 1vh;
+  }
+
+  .card{
+    margin-top: 70vh;
+    margin-left: -5vh;
+  }
+  .containerBoxs{
+    margin-top: 20vh;
+    margin-left: -23vh;
+  
+  }
+
   }
   
   .card{
@@ -89,3 +188,20 @@
     margin-top: -58vh;
   }
  
+  .headerText{
+    margin-top: 10vh;
+    margin-left: 5vh;
+  }
+
+
+  .headerText{
+    margin-top: 10vh;
+    margin-left: 5vh;
+  }
+
+@media (min-width: 768px) {
+  .containerBoxs{
+    display: none;
+  }
+  
+}
