@@ -63,7 +63,7 @@
  text-transform: uppercase;
  padding: 0 1rem;
  margin-top: -47vh;
- margin-left: 29vh;
+ margin-left: 21vh;
  z-index: 1;
   border-radius: 1vh;
  z-index: -2;
@@ -178,7 +178,8 @@
   }
   
   .card{
-    margin-top: 65vh;
+    margin-top: 62vh;
+    margin-right: -5vh;
   }
 
   .graph{
@@ -188,15 +189,12 @@
     margin-top: -58vh;
   }
  
-  .headerText{
-    margin-top: 10vh;
-    margin-left: 5vh;
-  }
+
 
 
   .headerText{
     margin-top: 10vh;
-    margin-left: 5vh;
+    margin-left: -5vh;
   }
 
 @media (min-width: 768px) {
@@ -204,4 +202,125 @@
     display: none;
   }
   
+}
+.coverLetter {
+  font-size: .8rem;
+  margin-top: 2.5vh;
+  font-family: 'Roboto', sans-serif;
+  text-transform:capitalize;
+  padding-right: 10vh;
+  line-height: 3.5vh;
+  text-align: center;
+}
+
+button{
+  margin-top: 49vh;
+  margin-left: -7vh;
+}
+
+.title {
+  margin-right:46vh;
+  font-weight: 600;
+  font-size: 1.5rem; 
+}
+
+.title0 {
+  margin-right: 26vh;
+  font-weight: 600;
+  font-size: 1.5rem; 
+}
+
+.title1{
+  margin-right: 27.5vh;
+  text-align: start;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+
+.role{
+  margin-right: 57.5vh;
+ font-weight: 600;
+ font-size: 1.5rem; 
+}
+
+.role1{
+  margin-right: 16.5vh;
+  font-size: 1.5;
+  font-weight: 600;
+}
+
+.role0 {
+  margin-right: 57.5vh;
+  font-size: 1.5;
+  font-weight: 600;
+}
+
+.respon{
+  font-weight: 500;
+  font-size: 1.1rem; 
+  margin-right: 57.5vh;
+  text-align: start;
+  text-decoration: underline;
+}
+.respon0{
+  font-weight: 500;
+  font-size: 1.1rem; 
+  margin-right: 57.5vh;
+  text-align: start;
+  text-decoration: underline;
+}
+
+.respon1{
+  font-weight: 500;
+  font-size: 1.1rem; 
+  margin-right: 57.5vh;
+  text-align: start;
+  text-decoration: underline;
+}
+
+li{
+  list-style: none;
+  font-size: 1rem;
+  text-align: start;
+  margin-left:1vh;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-top: 1vh;
+}
+
+.edu{
+  margin-left: -145.5vh;
+  margin-top: -55.9vh;
+  font-weight: 600;
+  font-size: 0.9rem;
+  
+}
+
+.hobbies{
+  margin-left:  122vh;
+  margin-top: -70.5vh;
+  font-weight: 600;
+  font-size: 0.9rem; 
+}
+
+.t{
+  text-decoration: underline;
+  color: mediumblue ;
+}
+
+#fdRes{
+  margin-left:  -10vh;
+  margin-top: .5vh;
+  font-weight: 600;
+  font-size: 1.1rem; 
+  border-radius: 2vh;
+  background-color: light;
+  padding: 1vh;
+}
+
+#fdRes:hover{
+  color: mediumblue;
+  background-color: aqua;
+  transition: all 0.9s ease;
 }
