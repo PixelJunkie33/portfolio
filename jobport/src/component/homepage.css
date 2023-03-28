@@ -109,7 +109,7 @@
 .coverLetter {
   font-size: 1.1rem;
   margin-top: 2.5vh;
-  font-family: 'Gantari', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-transform:capitalize;
   padding-right: 10vh;
   line-height: 3.5vh;
@@ -123,65 +123,70 @@ button{
 }
 
 .title {
-  margin-right:46vh;
-  font-weight: 600;
-  font-size: 1.5rem; 
-  font-family: 'Comfortaa', cursive;
+  margin-left: -45vh;
+  font-weight: 500;
+  font-size: 2.5rem; 
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 .title0 {
-  margin-right: 26vh;
-  font-weight: 600;
-  font-size: 1.5rem; 
+  margin-left: -30vh;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Noto Sans Avestan', sans-serif; 
 }
 
 .title1{
-  margin-right: 27.5vh;
-  text-align: start;
-  font-weight: 600;
-  font-size: 1.5rem;
+  margin-right: 101vh;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 
 .role{
-  margin-right: 57.5vh;
- font-weight: 600;
+  margin-right: 86vh;
+ font-weight: 500;
  font-size: 1.5rem; 
+ font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 .role1{
-  margin-right: 16.5vh;
+  font-family: 'Noto Sans Avestan', sans-serif;
+  margin-right: 43.5vh;
   font-size: 1.5;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .role0 {
-  margin-right: 57.5vh;
+  margin-right: 86vh;
   font-size: 1.5;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 .respon{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.1rem; 
-  margin-right: 57.5vh;
+  margin-right: 84.5vh;
   text-align: start;
   text-decoration: underline;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 .respon0{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.1rem; 
-  margin-right: 57.5vh;
-  text-align: start;
+  margin-right: 84.5vh;
   text-decoration: underline;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 .respon1{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.1rem; 
-  margin-right: 57.5vh;
-  text-align: start;
+  margin-right: 84.5vh;
   text-decoration: underline;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 li{
@@ -192,11 +197,12 @@ li{
   text-transform: capitalize;
   font-weight: 400;
   margin-top: 1vh;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 .edu{
   margin-left:  122vh;
-  
+  font-family: 'Comfortaa', cursive;
   font-weight: 600;
   font-size: 0.9rem; 
   
@@ -206,12 +212,14 @@ li{
   margin-left:  122vh;
   margin-top: -57.5vh;
   font-weight: 600;
+  font-family: 'Comfortaa', cursive;
   font-size: 0.9rem;
 }
 
 .hobbies{
   margin-left:  122vh;
   font-weight: 600;
+  font-family: 'Comfortaa', cursive;
   font-size: 0.9rem; 
 }
 
@@ -220,16 +228,19 @@ li{
 .t{
   text-decoration: underline;
   color: mediumblue ;
+  font-family: 'Noto Sans Avestan', sans-serif;
 }
 
 #fdRes{
   margin-left:  -10vh;
-  margin-top: .5vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
   font-weight: 600;
   font-size: 1.1rem; 
   border-radius: 2vh;
   background-color: light;
   padding: 1vh;
+  font-family: 'Comfortaa', cursive;
 }
 
 #fdRes:hover{

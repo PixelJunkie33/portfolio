@@ -43,35 +43,52 @@
 }
 
 .title{
-  margin-right: 16vh;
+  margin-left: -2.5vh;
+  font-size: 5vh;
+  font-weight: 500;
 }
 .role{
-  margin-right: 32vh;
+  margin-right: 31vh;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .respon{
-  margin-right: 31vh;
-  font-weight: 700;
+  margin-right: 30vh;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .title0{
-  margin-right: 6.9vh;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-left: -3.5vh;
+  margin-right: 29.5vh;
 }
 .role0{
-  margin-right: 32vh;
+  margin-right: 31vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+
 }
 .respon0{
-  margin-right: 31vh;
-  font-weight: 700;
+  margin-right: 30vh;
+  font-weight: 600;
 }
 .title1{
-  margin-right: 51vh;
+  margin-right: 46vh;
+  font-size: 2.5rem;
+  font-weight: 500;
+  
 }
 .role1{
-  margin-left: -8.7vh;
-  margin-right: 39.5vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -7.7vh;
+  margin-right: 38.5vh;
 }
 .respon1{
-  margin-right: 31vh;
+  margin-right: 29.5vh;
   font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .containerBox{
