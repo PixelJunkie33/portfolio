@@ -1,0 +1,183 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Gantari:wght@500&family=Noto+Sans+Avestan&display=swap');
+
+@media (max-width: 768px) {
+
+    #navbar{
+      margin-left: 10vh;
+      
+    }
+
+.webSidebar{
+    display: none;
+    
+}
+
+.mobSidebar{
+    margin-left: 0vh;
+    margin-top:3.5vh;
+    font-family: 'Comfortaa', cursive;
+}
+    .navbar-expand-md .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+  
+    .navbar-expand-md .navbar-nav {
+      justify-content: flex-end;
+    }
+  
+    .navbar-expand-md .navbar-toggler {
+      display: none;
+    }
+
+.mobHeaderText{
+    display: none;
+
+}
+#fdRes{
+  font-family: 'Comfortaa', cursive;
+    margin-top: 13.5vh;    
+    margin-right: -10vh;
+}
+
+.title{
+  margin-right: 16vh;
+}
+.role{
+  margin-right: 32vh;
+}
+.respon{
+  margin-right: 31vh;
+  font-weight: 700;
+}
+.title0{
+  margin-right: 6.9vh;
+}
+.role0{
+  margin-right: 32vh;
+}
+.respon0{
+  margin-right: 31vh;
+  font-weight: 700;
+}
+.title1{
+  margin-right: 51vh;
+}
+.role1{
+  margin-left: -8.7vh;
+  margin-right: 39.5vh;
+}
+.respon1{
+  margin-right: 31vh;
+  font-weight: 700;
+}
+
+.containerBox{
+margin-left: -25.9vh;
+}
+
+.title,
+.title0,
+.title1,
+.respon,
+.respon0,
+.respon1,
+.role,
+.role0,
+.role1{
+  font-family: 'Noto Sans Avestan', sans-serif;
+}
+
+
+.mobCard{
+  width: 17em;
+  margin-left: -10vh; 
+  font-family: 'Comfortaa', cursive;
+
+}
+#Mobreadmore{
+margin-left: 5vh;
+margin-top: 19.5em;
+margin: 20 auto;
+font-family: 'Comfortaa', cursive;
+}
+.coverLetter {
+  font-size: .9rem;
+  margin-top: 2.5vh;
+  font-family: 'Comfortaa', cursive;
+  text-transform:capitalize;
+  padding-right: 1vh;
+  line-height: 3.5vh;
+}
+    .tophero {
+      background-color: rgba(311,245,5, .4);
+      height: 50vh;
+      width: 62vh;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 1.5rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0 1rem;
+      margin-top: 10vh;
+      margin-left: 25vh;
+      z-index: 1;
+      border-radius: 1vh;
+      
+  }
+  .secondhero{
+   background-color: aqua;   
+   height: 50vh;
+   width: 62.5vh;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: black;
+   font-family: 'Noto Sans Avestan', sans-serif !important;
+   font-size: 2.5rem !important;
+   font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 0 1rem;
+   margin-top: -47vh;
+   margin-left: 27vh;
+   z-index: 1;
+   border-radius: 1vh;
+  }
+  .thirdhero{
+   background-color: rgba(222,415,655, .9);   
+   height: 52vh;
+   width: 57vh;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 0 1rem;
+   margin-top: -47vh;
+   margin-left: 29vh;
+   z-index: 1;
+    border-radius: 1vh;
+  }  
+  .containerBoxs{
+  display: none;
+  }
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+  }

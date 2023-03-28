@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {  NavDropdown,Nav, Navbar } from "react-bootstrap";
+import {  Nav, Navbar } from "react-bootstrap";
 import Education from './edu';
 import Hobbies from './hobbies';
+import Projects from './projects';
 import FileDownload from './download';
-import { useState } from 'react';
+import { useState  } from 'react';
 
 
 //create a component call hero
@@ -21,37 +22,69 @@ export default function Hero() {
 }
 
 export function StackedHero() {
-  
-    return (
-      <>
-        <div className="container containerBox">
-          <div className="col-15">
-            <h1 className='headerText'>Hi, I'm Kadeem Pratt</h1>
-            <FileDownload/>
-              <div className="tophero"><button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Read More">Read More</button></div>
-              <div className="secondhero"><p className='coverLetter'>I never planned on becoming a data analyst. In fact, I started my career in a completely different field altogether. But as I worked in various industries, I began to realize that my true passion lay in data analysis.
-I was always interested in numbers and patterns, and I found myself constantly asking questions about the data I was seeing. As I delved deeper into the world of data analysis, I began to see the potential that data held for solving complex problems and driving business decisions.
-At the time, I didn't have the technical skills or experience to pursue a career in data analysis. So, I decided to take matters into my own hands and teach myself the necessary skills. I started with online courses and tutorials, reading books on statistics and data analysis, and practicing with real-world datasets.</p></div>
-              
-              <div className="thirdhero">
-                
-                <Card />
-              </div>
-              <Education/>
-              <Hobbies/>
-            
+  const text =
+    "I never planned on becoming a data analyst. In fact, I started my career in a completely different field altogether. But as I worked in various industries, I began to realize that my true passion lay in data analysis. I was always interested in numbers and patterns, and I found myself constantly asking questions about the data I was seeing. As I delved deeper into the world of data analysis, I began to see the potential that data held for solving complex problems and driving business decisions. At the time, I didn't have the technical skills or experience to pursue a career in data analysis. So, I decided to take matters into my own hands and teach myself the necessary skills. I started with online courses and tutorials, reading books on statistics and data analysis, and practicing with real-world datasets.";
+  const text1 = "It wasn't easy. There were many times when I felt overwhelmed and discouraged, but I persevered. I spent countless hours working on data analysis projects, building my skills, and honing my craft. As I gained more experience, I started to see the results of my hard work. I was able to take on more challenging projects and deliver meaningful insights that helped businesses make better decisions. I was thrilled to see the impact that my work was having, and it only fueled my passion for data analysis even more. Over time, my self-taught approach is paying off. My current goal is to land a job as a data analyst, and continue to grow and develop my skills on the job. Today, I am proud to say that I am a self-taught data analyst who has built a stunning portfolio through hard work, determination, and a love for data analytics. Looking back, I am grateful for the challenges and obstacles that I faced along the way. They taught me to be resourceful, resilient, and adaptable – all qualities that have served me well as a data analyst. I am excited to see where this journey will take me next, and I am eager to continue learning and growing in this ever-evolving field.";
+  const handleReadMoreClick = () => {
+    const fullTextWindow = window.open('', '_blank');
+    fullTextWindow.document.write(`
+      <html>
+        <head>
+          <title>Kadeem Pratt Cover Letter</title>
+        </head>
+        <body id='text'>
+        <h2><span className='title'>Kadeem Pratt</span></h2>
+        <h3><span className='role'>Personal Statement</span></h3>
+          <p>${text}</p>
+          <p >${text1}</p>
+        </body>
+      </html>
+    `);
+    fullTextWindow.document.close();
+  };
+
+  return (
+    <>
+    <FileDownload/>
+    <Projects/>
+          <Education/>
+          <Hobbies/>
+      <div className="container containerBox">
+        <div className="col-15">
+          <h1 className='headerText mobHeaderText'>Hello! I am Kadeem P,</h1>
+         
+          <div className="tophero">
+            <button id='Mobreadmore Webreadmore' type="button" className="btn btn-primary" onClick={handleReadMoreClick} data-toggle="tooltip" data-placement="top" title="Read More">
+              Read More
+            </button>
+          </div>
+          <div className="secondhero">
+            <p className='coverLetter'>
+              {text.slice(0, text.length / 2) + "..."}
+            </p>
+          </div>
+          <div className="thirdhero">
+            <Card />
+          </div>
+         <div className='webSidebar'>
+          <Projects/>
+          <Education/>
+          <Hobbies/>
           </div>
         </div>
-      </>
-    );
-  }
+      </div>
+    </>
+  );
+}
+
+
   
   function Card() {
     return (
-      <div className="card" style={{ width: "32em" }}>
+      <div className="card mobCard" >
         <div className="card-header">latest work experience</div>
         <ul className="list-group list-group-flush">
-        <ul className="list-group-item"><span className='title0'>Freelance Software Developer</span><br/><span className='role0'>Contractor</span><br/>
+        <ul className="list-group-item"><span className='title0'>Developer/Data Analyst</span><br/><span className='role0'>Contractor</span><br/>
           <span className='respon0'>Impact Summary: </span>
           <li>
           <p>As a freelance software developer, I have a diverse range of skills and experiences that have allowed me to excel in my role. I have extensive knowledge of various software and data visualization tools, including Tableau, Python, Plotly, Sqlite3,Github Co-pilot, in addition to, Discord, and Slack, which have helped me to effectively communicate with clients and team members.</p>
@@ -74,7 +107,7 @@ At the time, I didn't have the technical skills or experience to pursue a career
             <p>Through my efforts, the company was able to achieve significant results, including improved data accuracy and quality, increased efficiency and effectiveness, and better alignment with business goals.</p>
             </li>
           </ul>
-          <ul className="list-group-item"><span className='title1'>Camden Redevelopment Agency</span><br/><span className='role1'> Assistant to Property Asset Manager </span><br/>
+          <ul className="list-group-item"><span className='title1'>CRA</span><br/><span className='role1'> Asst to Property Asset Manager </span><br/>
           <span className='respon1'>Impact Summary: </span>
           <li>
           <p>As a Project Manager and Grant Manager for the Camden Neighborhood Stabilization Grant, I oversaw an $11.9 million grant fund and ensured compliance between the Grantee and Grantor partnership. I conducted weekly field inspections of designated assets scoped by the grant, and was responsible for monitoring asset databases to ensure accuracy and timeliness.</p>
@@ -105,14 +138,6 @@ const [expanded, setExpanded] = useState(false);
         <Navbar.Collapse id="navbar" className={expanded ? 'show' : ''} >
           <Nav className="ml-auto col-10" navbar>
             <Nav.Link href="#" active>Message Me</Nav.Link>
-            <Nav.Link href="#">About Me</Nav.Link>
-            <NavDropdown title="Projects" id="dropdown-menu">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
-            </NavDropdown>
            </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -2,6 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './component/homepage.css';
+import './component/mobile.css';
 import Hero  from './component/homepage';
 
 function App() {

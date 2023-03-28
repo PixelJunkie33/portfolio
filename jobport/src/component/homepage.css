@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Gantari:wght@500&family=Montserrat:ital,wght@1,400;1,500&family=Noto+Sans+Avestan&family=Noto+Sans+JP&display=swap');
 
 .tophero {
     background-color: antiquewhite;
@@ -8,7 +9,7 @@
     align-items: center;
     text-align: center;
     color: blue;
-    font-family: 'Roboto', sans-serif;
+    
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -32,7 +33,7 @@
  align-items: center;
  text-align: center;
  color: blue;
- font-family: 'Roboto', sans-serif;
+
  font-size: 1.5rem;
  font-weight: 300;
  letter-spacing: 1px;
@@ -56,7 +57,7 @@
  align-items: center;
  text-align: center;
  color: blue;
- font-family: 'Roboto', sans-serif;
+
  font-size: 1.5rem;
  font-weight: 300;
  letter-spacing: 1px;
@@ -75,111 +76,12 @@
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
   
-  @media (max-width: 768px) {
 
-    #navbar{
-      margin-left: 5vh;
-    }
-    .navbar-expand-md .navbar-collapse {
-      display: flex !important;
-      flex-basis: auto;
-    }
-  
-    .navbar-expand-md .navbar-nav {
-      justify-content: flex-end;
-    }
-  
-    .navbar-expand-md .navbar-toggler {
-      display: none;
-    }
-.containerBox{
-  display: none;
-}  
-   .navHead{
-    visibility: hidden;
-   }
-    .overflow-auto{
-      display: none;
-    }
-    .tophero {
-      background-color: antiquewhite;
-      height: 50vh;
-      width: 55vh;
-      display: grid;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      color: blue;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 300;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 0 1rem;
-      margin-top: 10vh;
-      margin-left: 25vh;
-      z-index: 1;
-      border-radius: 1vh;
-      
-  }
-  
-  .secondhero{
-   background-color: aqua;   
-   height: 50vh;
-   width: 55vh;
-   display: grid;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   color: blue;
-   font-family: 'Roboto', sans-serif;
-   font-size: 1.5rem;
-   font-weight: 300;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-   padding: 0 1rem;
-   margin-top: -47vh;
-   margin-left: 27vh;
-   z-index: 1;
-   border-radius: 1vh;
-  }
-  
-  .thirdhero{
-   background-color: aquamarine;   
-   height: 50vh;
-   width: 55vh;
-   display: grid;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   color: blue;
-   font-family: 'Roboto', sans-serif;
-   font-size: 1.5rem;
-   font-weight: 300;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-   padding: 0 1rem;
-   margin-top: -47vh;
-   margin-left: 29vh;
-   z-index: 1;
-    border-radius: 1vh;
-  }
-
-  .card{
-    margin-top: 70vh;
-    margin-left: -5vh;
-  }
-  .containerBoxs{
-    margin-top: 20vh;
-    margin-left: -23vh;
-  
-  }
-
-  }
   
   .card{
+    width: 32em;
     margin-top: 62vh;
-    margin-right: -5vh;
+    margin-right: -10vh;
   }
 
   .graph{
@@ -193,8 +95,9 @@
 
 
   .headerText{
-    margin-top: 10vh;
-    margin-left: -5vh;
+    margin-top: 26.5vh;
+    margin-right: 95vh;
+    font-family:'Montserrat', sans-serif;;
   }
 
 @media (min-width: 768px) {
@@ -204,13 +107,14 @@
   
 }
 .coverLetter {
-  font-size: .8rem;
+  font-size: 1.1rem;
   margin-top: 2.5vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gantari', sans-serif;
   text-transform:capitalize;
   padding-right: 10vh;
   line-height: 3.5vh;
   text-align: center;
+  color: black;
 }
 
 button{
@@ -222,6 +126,7 @@ button{
   margin-right:46vh;
   font-weight: 600;
   font-size: 1.5rem; 
+  font-family: 'Comfortaa', cursive;
 }
 
 .title0 {
@@ -290,19 +195,27 @@ li{
 }
 
 .edu{
-  margin-left: -145.5vh;
-  margin-top: -55.9vh;
+  margin-left:  122vh;
+  
+  font-weight: 600;
+  font-size: 0.9rem; 
+  
+}
+
+.proj{
+  margin-left:  122vh;
+  margin-top: -57.5vh;
   font-weight: 600;
   font-size: 0.9rem;
-  
 }
 
 .hobbies{
   margin-left:  122vh;
-  margin-top: -70.5vh;
   font-weight: 600;
   font-size: 0.9rem; 
 }
+
+
 
 .t{
   text-decoration: underline;
@@ -324,3 +237,4 @@ li{
   background-color: aqua;
   transition: all 0.9s ease;
 }
+

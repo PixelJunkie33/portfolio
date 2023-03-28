@@ -8,14 +8,9 @@ export default function Hobbies() {
   };
 
   return (
-    <div className="hobbies">
-      <h2>Hobbies</h2>
-      <p>
-        Kaggle Competition's <br /> Machine Learning NLP{" "}
-        <br />
-        <a href="https://www.kaggle.com/kadeepratt">View Profile</a>{" "}
-      </p>
-      <br />
+    <div className="hobbies mobSidebar">
+      
+
       <div className="dropdown">
         <h4 onClick={toggleTools} data-toggle="tooltip" title='Expand List'  >
           Tools & Techniques{" "}
@@ -51,7 +46,14 @@ export default function Hobbies() {
             <p className="t">Express.Js</p>
             <p className="t">Sqlite3</p>
           </div>
+          
         )}
+        <h4>Hobbies</h4>
+      <p>
+        Kaggle Competition's <br /> Machine Learning NLP{" "}
+        <br />
+        <a href="https://www.kaggle.com/kadeepratt">View Profile</a>{" "}
+      </p>
       </div>
     </div>
   );
